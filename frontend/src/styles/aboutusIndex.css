@@ -1,0 +1,54 @@
+/* .about-header {
+  align-self: stretch;
+  color: #ffffff;
+} */
+
+.about-header {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  position: relative;
+  width: 100%;
+  display: block;
+  line-height: 250%;
+}
+
+.about-content {
+  font-size: 25px;
+  letter-spacing: 3px;
+  line-height: 200%;
+  margin-left: 125px;
+  line-height: 150%;
+  margin-right: 50px;
+}
+
+.about-main-container {
+  display: flex;
+  height: 80vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-left-content {
+  overflow-y: auto;
+  justify-content: center;
+  text-align: left;
+  width: 70%;
+  height: 70%;
+}
+
+.about-right-content {
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  position: sticky;
+  margin-left: 50px;
+  width: 30%;
+  height: 50%;
+}
+
+.about-right-content > *:not(:last-child) {
+  margin-bottom: 50px;
+}

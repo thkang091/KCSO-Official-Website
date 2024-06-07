@@ -1,0 +1,9 @@
+.hoverText {
+  color: rgb(194, 194, 194);
+  transition: color 0.25s ease-in-out, font-size 0.25s ease-in-out;
+}
+
+.hoverText:hover {
+  color: #5661ff;
+  cursor: pointer;
+}

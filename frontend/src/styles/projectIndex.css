@@ -1,0 +1,22 @@
+.projects-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 75px;
+  letter-spacing: 10px;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
