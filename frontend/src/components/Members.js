@@ -16,7 +16,7 @@ function Members() {
 function Header() {
   return (
     <header className="header">
-      <p>Memers</p>
+      <p>Members</p>
     </header>
   );
 }
