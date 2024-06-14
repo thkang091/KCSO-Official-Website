@@ -13,7 +13,7 @@ router.post("/", async (req, res) => {
   const { name, summary, description } = req.body;
   const newProject = new Project({ name, summary, description });
   await newProject.save();
-  res.status(201).json(newProjec);
+  res.status(201).json(newProject);
 });
 
 //get a specific Project
